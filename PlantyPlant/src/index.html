@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlantyPlant</title>
+    <link rel="stylesheet" href="css/defualt-display.css">
+    <link rel="stylesheet" href="css/carousel-display.css">
+    <link rel="stylesheet" href="css/card-display.css">
 </head>
 <body>
     <header>
         <nav class="main-nav">
-        <h1>PlantyPlant</h1>
-            <a class ="logo link" href = "home.html" title="PlantPlant">
-                <!--<img src="logo.png" alt="PlantyPlant Logo" class="logo">-->
+            <a class ="logo" href = "index.html" title="PlantyPlant">
+                <img src="img/icon/PlantyPlant_Icon.png" alt="PlantyPlant Logo" class="logo">
             </a>
-            <a href = "home.html">Home</a>
-            <a href = "Plants.html">Plants/Species</a>
-            <a href = "Blog.html">Blog/Tips</a>
-            <a href = "about.html">About</a>
+            <h1 class="nav-right nav-title">PlantyPlant </h1>
+            <div class="nav-right">
+                <a href = "index.html">Home</a>
+                <a href = "Plants.html">Plants/Species</a>
+                <a href = "about.html">About</a>
+            </div>
             <form class="nav-search">
             <input id="search-bar" name="Search" type="search" placeholder="ค้นหาต้นไม้, ความต้องการ...">
-            <button type="submit">ค้นหา</button>
+            <button type="submit" id="search-button">ค้นหา</button>
             </form>
         </nav>
     </header>
     <main>
         <!-- Top Part : Carousel Section -->
-        <section class="Display Carousel">
+        <section class="display-carousel">
             <h2>Top Plants</h2>
             <div class ="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item-active">
-                        <img src="D:\Work\My Project\PlantyPlant\img\carousel\Untitled.png" alt="Monstera Plant">
-                        <div class="Text-aligned-right-center">
+                    <div class="carousel-item active">
+                        <img src="img/carousel/Untitled.png" alt="Monstera Plant">
+                        <div class="text-aligned-right-center">
                             <h3>Monstera Deliciosa</h3>
                             <p>The Swiss Cheese Plant is known for its large, glossy leaves with unique holes and splits.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="D:\Work\My Project\PlantyPlant\img\carousel\united-nursery-house-plants-74349-64_600.png" alt="Fiddle Leaf Fig">
-                        <div class="Text-aligned-right-center">
+                        <img src="img/carousel/united-nursery-house-plants-74349-64_600.png" alt="Fiddle Leaf Fig">
+                        <div class="text-aligned-right-center">
                             <h3>Fiddle Leaf Fig</h3>
                             <p>This popular indoor plant features large, violin-shaped leaves that add a touch of elegance to any space.</p>
                         </div>
@@ -54,7 +58,42 @@
         </section>
         <!-- Middle Part : Content Section -->
         <section>
-        
+        <h2>Welcome to PlantyPlant</h2>
+        <div class="card-container">
+            <div class="card-section">
+                <div class="card-image">
+                    <!--Card image place here-->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Monstera Plant</h3>
+                    <p class="card-subtitle">Monstera is a tropical plant known for its large, distinctive leaves with natural holes.</p>
+                    <p class="card-date">November 26, 2025</p>
+                    <a href="" class="card-link">Read More</a>
+                </div>
+            </div>
+            <div class="card-section">
+                <div class="card-image">
+                    <!--Card image place here-->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Monstera Plant</h3>
+                    <p class="card-subtitle">Monstera is a tropical plant known for its large, distinctive leaves with natural holes.</p>
+                    <p class="card-date">November 26, 2025</p>
+                    <a href="" class="card-link">Read More</a>
+                </div>
+            </div>
+            <div class="card-section">
+                <div class="card-image">
+                    <!--Card image place here-->
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Monstera Plant</h3>
+                    <p class="card-subtitle">Monstera is a tropical plant known for its large, distinctive leaves with natural holes.</p>
+                    <p class="card-date">November 26, 2025</p>
+                    <a href="" class="card-link">Read More</a>
+                </div>
+            </div>
+        </div>
         </section>
     </main> 
     <footer>
